@@ -38,16 +38,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
         navigationView = findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
-        // we can to the bellow thing, or
-        // we can implement NavigationView.OnNavigationItemSelectedListener   in our Activity
-        // and override the onNavigationItemSelected method
 
-//        navigationView.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
-//            @Override
-//            public boolean onNavigationItemSelected(@NonNull MenuItem menuItem) {
-//                return false;
-//            }
-//        });
 
 
 
