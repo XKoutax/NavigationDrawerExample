@@ -9,9 +9,12 @@
     </style>
 
 
+    <!-- android:statusBarColor = @android:color/transparent  makes the statusBar transparent, so our drawer_layout will be see-able underneath it-->
+    <!-- difference : WITH = http://prntscr.com/mw8d2x      WITHOUT = http://prntscr.com/mw8dga-->
     <style name="AppTheme.NoActionBar">
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
     </style>
 
 </resources>

@@ -8,8 +8,8 @@
     android:padding="6dp"
     android:theme="@style/ThemeOverlay.AppCompat.Dark">
 
-    <!-- android:gravity="bottom"  cuz we want everything to be pasted at the BOTTOM of this header -->
-    <!-- android:theme="@style/ThemeOverlay.AppCompat.Dark" make the text WHITE, as if everything in the background was dark -->
+    <!-- android:gravity="bottom"    cuz we want everything to be pasted at the BOTTOM of this header -->
+    <!-- android:theme="@style/ThemeOverlay.AppCompat.Dark"    make the text WHITE, as if everything in the background was dark. Preview won't show it white, but upon running it will be white-->
 
     <ImageView
         android:layout_width="wrap_content"
